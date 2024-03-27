@@ -1,4 +1,5 @@
 import 'package:chata_pp/constants.dart';
+import 'package:chata_pp/features/chat/persentaion/view/chat_view.dart';
 import 'package:chata_pp/features/home/persentation/view/home.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +19,7 @@ class UmoApp extends StatelessWidget {
         brightness:Brightness.dark ,
         scaffoldBackgroundColor: KprimaryColor,
       ),
-      home:const HomeView(),
+      home:const chatView(),
     );
   }
 }
